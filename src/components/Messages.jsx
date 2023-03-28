@@ -10,7 +10,6 @@ class Messages extends Component {
     return (
       <ul className="Messages-list">
         {messages.map(m => this.renderMessage(m))}
-        <renderMessage/>
       </ul>
     );
   }
